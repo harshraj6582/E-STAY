@@ -14,7 +14,7 @@ export default function Navbar() {
 
       </div>
 
-      <div className="border rounded-2xl p-2 flex items-center space-x-2"> {/* 2 COm */}
+      <div className="border rounded-3xl p-2 flex items-center space-x-2"> {/* 2 COm */}
             <span className="text-sm pl-2 ">Anywhere</span>
             <span>|</span>
             <span className="text-sm ">Anywhere where </span>
