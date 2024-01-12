@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar'
 import ClientOnly from './components/ClientOnly'
 const inter = Inter({ subsets: ['latin'] })
 import Modal from './components/modals/Modals'
+import RegisterModal from './components/modals/RegisterModal'
 
 export const metadata: Metadata = {
   title: 'E-Stay',
@@ -24,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={font.className}>
       <ClientOnly>
-        <Modal  title = "Hello " isOpen/>
+        <RegisterModal/>
       <Navbar/>
       </ClientOnly>
         
